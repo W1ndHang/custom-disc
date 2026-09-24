@@ -1,4 +1,3 @@
-<img width="1242" height="1274" alt="音频导入界面" src="https://github.com/user-attachments/assets/c0688a1b-7f40-47bc-a68b-8223079c0c96" /># Custom Disc
 
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-brightgreen)
 
