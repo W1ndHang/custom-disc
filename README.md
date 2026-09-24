@@ -1,4 +1,4 @@
-# Custom Disc
+<img width="1242" height="1274" alt="音频导入界面" src="https://github.com/user-attachments/assets/c0688a1b-7f40-47bc-a68b-8223079c0c96" /># Custom Disc
 
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-brightgreen)
 
@@ -20,19 +20,17 @@ Custom Disc turns your own audio files into real in-game music discs — import 
 
 ## Screenshots / 截图
 
->
+><img width="1242" height="1274" alt="音频导入界面" src="https://github.com/user-attachments/assets/fe566b69-7df9-4fcd-ab00-5f2765bd87b2" />
+><img width="618" height="305" alt="唱片配方" src="https://github.com/user-attachments/assets/2f95f6d0-fbde-4cf1-9665-5a93f215e03c" />
+><img width="628" height="310" alt="唱片矿车配方" src="https://github.com/user-attachments/assets/51dbc0ad-f0d0-4a4c-9232-d59de48c3d68" />
 
-> **[Screenshot 2 — to add]** The two crafting recipes: Blank Disc and Jukebox Minecart.  
-> **[截图 2 —— 待补]** 两个合成配方：空白唱片、唱片机矿车。
 
-> **[Screenshot 3 — to add]** A jukebox playing a custom disc, with note particles.  
-> **[截图 3 —— 待补]** 唱片机正在播放自定义唱片，带音符粒子。
+><img width="324" height="519" alt="唱片机音符" src="https://github.com/user-attachments/assets/3ca68873-0203-4883-9ae7-d70471bc40b7" />
 
-> **[Screenshot 4 — to add]** The Jukebox Minecart playing while moving along rails.  
-> **[截图 4 —— 待补]** 唱片机矿车在铁轨上边行驶边播放。
+><img width="1672" height="519" alt="唱片机矿车音符" src="https://github.com/user-attachments/assets/74eb7277-d848-4a2c-9803-c072801958e7" />
 
-> **[Screenshot 5 — to add]** A written disc's tooltip, showing its `id` and `signal`.  
-> **[截图 5 —— 待补]** 音乐唱片的提示框，显示 `id` 与 `signal`。
+><img width="457" height="270" alt="id与signal" src="https://github.com/user-attachments/assets/246c1e51-dc59-4c4c-a766-e71d26312439" />
+
 
 ---
 
