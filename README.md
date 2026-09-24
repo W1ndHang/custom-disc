@@ -9,7 +9,7 @@
 
 [English](#english) · [中文](#中文)
 
-**Download:** [Modrinth](https://modrinth.com/mod/custom-disc) · [GitHub Releases](https://github.com/W1ndHang/custom-disc/releases)
+**Download:** [Modrinth](https://modrinth.com/mod/custom_disc) · [GitHub Releases](https://github.com/W1ndHang/custom-disc/releases)
 
 Custom Disc turns your own audio files into real in-game music discs — import an MP3, WAV or OGG and play it in a jukebox, or in the new Jukebox Minecart.
 
