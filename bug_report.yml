@@ -1,0 +1,131 @@
+name: Bug report
+description: Something is broken or not working as expected in Custom Disc.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug.
+
+        The fields below are required for a reason. Without the mod version, the
+        Minecraft version, and a log file, a bug report usually cannot be acted on.
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: Custom Disc version
+      description: Shown on the Modrinth version list, or in the name of the jar file.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: mc-version
+    attributes:
+      label: Minecraft version
+      placeholder: "1.21.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: loader
+    attributes:
+      label: Mod loader
+      options:
+        - Fabric
+        - Quilt
+        - Other (described below)
+    validations:
+      required: true
+
+  - type: input
+    id: loader-versions
+    attributes:
+      label: Fabric Loader and Fabric API version
+      placeholder: "Fabric Loader 0.19.3, Fabric API 0.116.13+1.21.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Where did it happen?
+      description: |
+        Custom Disc sends packets between client and server, so both sides must run
+        the same version of the mod. Many bugs only appear in one of these setups.
+      options:
+        - Singleplayer
+        - Multiplayer, I joined someone else's server
+        - Multiplayer, I run the dedicated server
+        - Multiplayer, LAN world hosted by me
+    validations:
+      required: true
+
+  - type: input
+    id: other-mods
+    attributes:
+      label: Other mods installed
+      description: Especially anything that touches jukeboxes, minecarts, note blocks or audio. Write none if Custom Disc is the only mod.
+      placeholder: "e.g. none, or Sodium + Iris + ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Number them, starting from launching the game.
+      placeholder: |
+        1. Craft a Blank Disc
+        2. Sneak and right-click it, then import a file
+        3. Place a Jukebox and insert the disc
+        4. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened?
+    validations:
+      required: true
+
+  - type: input
+    id: audio-format
+    attributes:
+      label: Audio file details
+      description: Only needed if the bug involves importing or playing a disc.
+      placeholder: "MP3, about 4 minutes long"
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log or crash report
+      description: |
+        Paste the contents of `.minecraft/logs/latest.log`, or the crash report from
+        `.minecraft/crash-reports/`. If it is too long to paste, drag the file into
+        this box to attach it instead.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I am using the latest version of Custom Disc.
+          required: true
+        - label: I have searched existing issues and this bug has not been reported yet.
+          required: true
+        - label: I am running an unmodified copy of the mod.
+          required: true

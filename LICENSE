@@ -1,0 +1,72 @@
+Custom Disc - Proprietary License
+
+Copyright (c) 2026 W1ndHang. All rights reserved.
+
+This software and its associated files (the "Software") are proprietary and
+protected by copyright law. No license, right, or permission is granted to you
+except as expressly stated below.
+
+1. PERMITTED USE
+
+   You may use the Software for personal entertainment, including on
+   multiplayer servers and in recorded or streamed video content.
+
+2. REDISTRIBUTION OF UNMODIFIED COPIES
+
+   You MAY redistribute, share, reupload, and pass on the Software, including
+   hosting it elsewhere or bundling it into a modpack, provided that ALL of the
+   following conditions are met:
+
+     a. the Software is passed on in its ORIGINAL, UNMODIFIED form, exactly as
+        published by the copyright holder;
+     b. this license file, the copyright notice, and any attribution contained
+        in the Software are kept intact and unaltered;
+     c. you do not claim authorship of the Software, and you do not present it
+        as your own work;
+     d. the redistribution is free of charge.
+
+   No prior permission is needed for redistribution that meets these
+   conditions. In particular, you may include the Software in a free modpack.
+
+3. PROHIBITED USE
+
+   You may NOT, without prior written permission from the copyright holder:
+
+     a. modify, adapt, translate, repackage, rename, or create derivative works
+        based on the Software, in whole or in part;
+     b. extract code, assets, or data from the Software for use in another
+        project;
+     c. reverse engineer, decompile, or disassemble the Software, except to the
+        extent that such a restriction is prohibited by applicable law;
+     d. sell, rent, license, or otherwise commercially exploit the Software,
+        or distribute it as part of any product or service that requires
+        payment;
+     e. remove or alter this notice, the copyright notice, or any attribution
+        contained in the Software.
+
+4. THIRD-PARTY COMPONENTS
+
+   The Software bundles the unmodified library JLayer 1.0.1
+   (http://www.javazoom.net/javalayer/javalayer.html), which is licensed under
+   the GNU Lesser General Public License (LGPL). JLayer is distributed as a
+   separate nested JAR and is NOT covered by the proprietary terms above.
+   The LGPL text is available at https://www.gnu.org/licenses/lgpl.html
+   This project is not affiliated with or endorsed by the JLayer authors.
+
+5. MINECRAFT
+
+   This is a third-party modification for Minecraft. It is not an official
+   Minecraft product, and it is not approved by or associated with Mojang
+   Studios or Microsoft. Use of Minecraft is governed by the Minecraft End User
+   License Agreement, which prohibits selling mods for the game.
+
+6. NO WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+   WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+For permission requests, contact the copyright holder.

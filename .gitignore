@@ -1,0 +1,77 @@
+# ---------------------------------------------------------------------------
+# Custom Disc — public repository
+#
+# How this repository gets populated: the five non-source files in this folder
+# (this file, LICENSE, .gitattributes, and .github/ISSUE_TEMPLATE/*) are
+# uploaded ONCE through the GitHub web interface. No local git repository is
+# connected to this folder, and the mod jar is attached to GitHub Releases by
+# hand for each version.
+#
+# The rules below are therefore a SAFETY NET, not an active mechanism. They are
+# here so that if a local repository is ever connected to this folder, the
+# source code cannot be committed by accident.
+#
+# ===========================================================================
+#  WARNING: "git add -f <file>" bypasses every rule in this file.
+#  If a local repository is ever connected here, never use "git add -f".
+# ===========================================================================
+# ---------------------------------------------------------------------------
+
+# ---- Source code: must never reach the public repository ----
+# Extension rules are deliberate: a directory-only rule such as "src/" would
+# NOT catch a single stray .java file sitting loose in the project root.
+*.java
+*.kt
+*.kts
+*.gradle.kts
+*.class
+src/
+
+# ---- Gradle / build scaffolding ----
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+*.gradle
+gradle.properties
+build/
+out/
+classes/
+
+# ---- Development runtime ----
+# Contains the dev worlds, logs, and the audio files imported into discs.
+run/
+
+# ---- Built artifacts ----
+# The mod jar is distributed through GitHub Releases, not through the repo tree.
+*.jar
+
+# ---- GitHub Actions ----
+# build.yml cannot run here: the source it builds is not published. Ignoring it
+# prevents a permanently failing check on the public repository.
+# Delete this rule if you ever decide to publish the source.
+.github/workflows/
+
+# ---- IDE ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+*.launch
+
+# ---- OS ----
+*.DS_Store
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- JVM crash / profiling dumps ----
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
